@@ -1,0 +1,448 @@
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	list-style:none;
+	font-family:sans-serif;
+	}
+	
+/*-------------------------------*/	
+/*-------------------------------*/	
+/*--ENCABEZADO--*/
+	
+header{
+	position:relative;
+	margin:auto;
+	width:1000px;
+	height:83px;
+	background:url(../img/cabezote.jpg);
+	}
+	
+#logo{
+	position:absolute;
+	padding: 10px;
+	width:70px;
+	height:70px;
+	border-radius: 50px;
+	
+	}
+	
+/*--FIN ENCABEZADO--*/
+/*-------------------------------*/	
+/*-------------------------------*/
+/*--BARRA DE NAVEGACIÓN--*/
+
+nav{
+	position:relative;
+	margin:auto;
+	width:1000px;
+	height:40px;
+	padding: auto;
+	background:url(../img/nav.jpg);
+	}
+	
+nav ul{
+	position:absolute;
+	top:0;
+	left:0;
+	width:500px;
+	height:45px;
+	}
+	
+nav ul li{
+	float:left;
+	width:120px;
+	line-height:60px;
+	text-align:center;
+	font-size:14px;
+	color:white;
+	
+	}
+	nav ul li:hover{
+	-webkit-transition:-webkit-transform 0.3s ease-in-out; /* para suavizar la animacion*/
+  	-webkit-transform: scale(1.2); /* Safari 3-8 */
+	  transform: scale(1.2);
+	color: rgb(235, 77, 77); }
+	
+/*--FIN BARRA DE NAVEGACIÓN--*/
+/*-------------------------------*/	
+/*-------------------------------*/
+/*--SLIDE--*/
+
+#slide{
+	position:relative;
+	margin:auto;
+	width:1000px;
+	height:301px;
+	}
+	
+/*--FIN SLIDE--*/
+/*-------------------------------*/	
+/*-------------------------------*/
+/*--BOTONERA SLIDE--*/
+
+#botoneraSlide{
+	position:relative;
+	margin:auto;
+	width:1000px;
+	height:26px;
+	background:url(../img/backBotonesSlide.jpg);
+	}
+	
+#botoneraSlide ul{
+	position:relative;
+	margin:auto;
+	width:100px;
+	height:26px;
+	}
+	
+#botoneraSlide ul li{
+	float:left;
+	width:10px;
+	height:10px;
+	border-radius:100%;
+	background:#2b3ee7;	
+	border:3px solid white;
+	margin:3px 2px;
+	}
+	
+/*--FIN BOTONERA SLIDE--*/
+/*-------------------------------*/	
+/*-------------------------------*/
+/*--SECTION INICIO--*/
+
+section#inicio{
+	position:relative;
+	margin:auto;
+	width:1000px;
+	height:299px;
+	background:rgb(213, 248, 246);
+	}
+	
+section#inicio ul li{
+	float:left;
+	width:333px;
+	height:299px;
+	}
+	
+section#inicio ul li h1{
+	margin:23px 27px;
+	font-weight:100;
+	font-size:25px;
+	}
+	
+section#inicio ul li p{
+	margin:23px 28px;
+	font-size:15px;
+	}
+	
+section#inicio ul li img{
+	margin:1px 29px;
+	width:273px;
+	height:83px;
+	background:silver;	
+	border-radius: 15px;
+	}
+section#inicio ul li img:hover{
+	-webkit-transition:-webkit-transform 0.3s ease-in-out; /* para suavizar la animacion*/
+	-webkit-transform: scale(1.2); /* Safari 3-8 */
+	transform: scale(1.2);}
+
+
+
+/*--FIN SECTION INICIO--*/
+/*-------------------------------*/	
+/*-------------------------------*/	
+/*--SECTION QUIENES SOMOS--*/
+
+section#quienesSomos{
+	position:relative;
+	margin:auto;
+	width:1000px;
+	height:299px;
+	/*background:url(../img/quienesSomos.jpg);*/
+	background:rgb(213, 248, 246);
+	}
+
+section#quienesSomos h1{
+	position:relative;
+	top:15px;
+	left:27px;
+	color:#6c6381;
+	font-weight:100;
+	}
+	
+section#quienesSomos hr{
+	position:relative;
+	top:20px;
+	width:950px;
+	margin:auto;
+	border:1px solid #c6c6c6c6;
+	}
+
+section#quienesSomos p{
+	position:relative;
+	top:40px;
+	width:950px;
+	margin:auto;
+	color:#414042;
+	text-align:justify;
+	}
+	
+section#quienesSomos img{
+	float:left;
+	width:272px;
+	margin-right:20px;
+	margin-bottom:20px;
+	}
+	
+/*--FIN SECTION QUIENES SOMOS--*/
+/*-------------------------------*/	
+/*-------------------------------*/	
+/*--SECTION SERVICIOS--*/
+
+section#servicios{
+	position:relative;
+	margin:auto;
+	width:1000px;
+	height:299px;
+	background:rgb(213, 248, 246);
+	}
+	
+section#servicios #cajaServicios{
+	position:relative;
+	width:935px;
+	margin:auto;
+	top:18px;
+	height:262px;
+	background:rgb(213, 248, 246);
+	box-shadow:0px 0px 30px #222;
+	}
+	
+section#servicios #cajaServicios ul#lista{
+	position:absolute;
+	top:20px;
+	left:15px;
+	width:151px;
+	height:220px;
+	}
+
+section#servicios #cajaServicios ul#lista li{
+	width:151px;
+	height:72px;
+	margin:2px 0;
+	cursor:pointer;
+	}
+	
+section#servicios #cajaServicios ul#visor{
+	position:absolute;
+	top:20px;
+	right:20px;
+	width:732px;
+	height:220px;
+	}
+	
+section#servicios #cajaServicios ul#visor li{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:732px;
+	height:220px;	
+	}
+	
+section#servicios #cajaServicios ul#visor li h1{
+	position:absolute;
+	z-index:1;
+	top:20px;
+	left:20px;
+	color:#4d545a;
+	font-weight:100;
+}
+
+section#servicios #cajaServicios ul#visor li p{
+	position:absolute;
+	z-index:1;
+	bottom:0;
+	background:rgba(0,0,0,.7);
+	color:white;
+	width:97%;
+	line-height:60px;
+	padding-left:20px;
+}
+	
+	
+/*--FIN SECTION SERVICIOS--*/
+/*-------------------------------*/	
+/*-------------------------------*/
+/*--SECTION CONTACTENOS--*/
+
+section#contactenos{
+	position:relative;
+	margin:auto;
+	width:1000px;
+	height:299px;
+	background:rgb(213, 248, 246);
+	}
+	
+section#contactenos form{	
+	position:relative;
+	margin:auto;
+	top:32px;
+	width:910px;
+	height:232px;
+	background:rgb(213, 248, 246);
+	}
+
+section#contactenos form input#nombre{
+	position:absolute;
+	padding:10px;
+	width:272px;
+	height:45px;
+	background:#9fbcc4;
+	border:0;
+	}
+	
+section#contactenos form input#email{
+	position:absolute;
+	top:81px;
+	padding:10px;
+	width:272px;
+	height:45px;
+	background:#9fbcc4;
+	border:0;
+	}
+	
+section#contactenos form input#asunto{
+	position:absolute;
+	bottom:0px;
+	padding:10px;
+	width:272px;
+	height:45px;
+	background:#9fbcc4;
+	border:0;
+	}
+	
+section#contactenos form #mensaje{
+	position:absolute;
+	right:0px;
+	padding:10px;
+	width:581px;
+	height:128px;
+	background:#9fbcc4;
+	border:0;
+	}
+	
+section#contactenos form input#enviar{
+	position:absolute;
+	bottom:0px;
+	right:0;
+	padding:10px;
+	width:604px;
+	height:69px;
+	background:#55a2f0;
+	border:0;
+	color:white;
+	}
+
+	
+	
+/*--FIN SECTION CONTACTENOS--*/
+/*-------------------------------*/	
+/*-------------------------------*/
+/*--BOTTOM--*/
+
+#bottom{
+	position:relative;
+	margin:auto;
+	width:1000px;
+	height:190px;
+	background:url(../img/backBottom.jpg);
+	}
+	
+#bottom ul li{
+	float:left;
+	width:250px;
+	height:190px;
+	}
+	
+#bottom ul li h1{
+	margin:13px 18px;
+	color:white;
+	font-size:18px;
+	font-weight:100;
+	}
+	
+#bottom ul li ol{
+	position:relative;
+	top:15px;
+	left:17px;
+	width:190px;
+	height:80px;
+	background:rgbsa(255,0,0,.5);
+	}
+	
+#bottom ul li ol li{
+	height:20px;
+	text-align:left;
+	list-style:inside;
+	font-size:15px;
+	color:white;
+	list-style-image:url(../img/list.png);
+	}
+	
+#bottom ul li img{
+	position:relative;
+	top:15px;
+	left:15px;
+	width:95px;
+	height:95px;
+	border:4px solid white;
+	background:url(../img/imgGaleria.jpg);
+	background-size:cover;
+	}
+	
+#bottom ul li ul{
+	position:relative;
+	top:11px;
+	left:15px;
+	width:200px;
+	height:40px;
+	}
+	
+#bottom ul li ul li{
+	float:right;
+	width:40px;
+	height:40px;
+	border-radius:100%;
+	background:white;
+	margin:5px;
+	}
+	
+#bottom ul li ul li:first-child{
+	background:url(../img/IconoFacebook.jpg);
+	background-size:cover;
+	}
+	
+#bottom ul li ul li:nth-child(2){
+	background:url(../img/twitter.jpg);
+	background-size:cover;
+	}
+	
+#bottom ul li ul li:nth-child(3){
+	background:url(../img/whatsapp.jpg);
+	background-size:cover;
+	}
+#bottom ul li ul li:nth-child(4){
+		background:url(../img/instagram.jpg);
+		background-size:cover;
+		}
+	
+#bottom ul li ul li a{
+	float:right;
+	width:40px;
+	height:40px;
+	border: radius 50%;
+	}
+/*--FIN BOTTOM--*/
+/*-------------------------------*/	
+/*-------------------------------*/
